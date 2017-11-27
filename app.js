@@ -1,33 +1,35 @@
 var aliens=10000;
-var greetings;
 var x=2500;
 //*green*//
-var y=4500;
+var red=4500;
 //*red*//
-var z=3000;
+var blue=3000;
 //*blue*//
 
-var total1= x+y;
-var total2= y+z;
+var y= x + red;
+var z= red + x;
 
 
 
-function alienInvasion(x,y,z){
-	if(aliens = 10000){
-		greetings= "YUHPS"
+function alienInvasion(green,total1,total2) {
+	if(aliens = 10000)
+	{
+		console.log("YUHPS");
 	}
 	
-	else if(x > 5000){
-		greetings="MOTHER OF GOD, not the green ones"
+	if(x > 5000)
+	{
+		console.log("MOTHER OF GOD, not the green ones");
 	}
 
-	else if(total1 > 8000){
-		greetings="DOOOOOM!"
+	if(y > 8000)
+	{
+		console.log("DOOOOOM!");
 	}
 
-	else(total2 > 3000){
-		greetings="We will not go quietly into the night. We will not vanish without a fight. TODAY WE CELEBRATE OUR INDEPENDANCE DAY!"
+	if(z > 3000)
+	{
+		console.log("We will not go quietly into the night. We will not vanish without a fight. TODAY WE CELEBRATE OUR INDEPENDANCE DAY!");
 	}
 }
-
-console.log(greetings)
+alienInvasion(x,y,z)
