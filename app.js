@@ -17,12 +17,12 @@ function alienInvasion(green,total1,total2) {
 		console.log("YUHPS");
 	}
 	
-	if(x > 5000)
+	if(x < 5000)
 	{
 		console.log("MOTHER OF GOD, not the green ones");
 	}
 
-	if(y > 8000)
+	if(y < 8000)
 	{
 		console.log("DOOOOOM!");
 	}
